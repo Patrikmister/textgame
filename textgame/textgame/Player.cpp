@@ -4,7 +4,7 @@
 
 Player::Player()
 {
-	cout << "You are in dungeons. Find the hidden gold!";
+
 }
 
 

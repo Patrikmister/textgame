@@ -1,12 +1,14 @@
 #pragma once
 class Playground
 {
-protected:
+private:
 	int height;
 	int width;
 public:
 	Playground();
 	~Playground();
 	void Print(int playerX, int playerY);
+	int getHeigth();
+	int getWidth();
 };
 

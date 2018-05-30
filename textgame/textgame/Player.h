@@ -1,7 +1,7 @@
 #pragma once
 class Player
 {
-private:
+protected:
 	int health = 100;
 	int weapon = 0;
 	int x = 1;
