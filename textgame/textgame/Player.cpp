@@ -4,13 +4,13 @@
 
 Player::Player()
 {
-
+	cout << "You are in dungeons. Find the hidden gold!";
 }
 
 
 Player::~Player()
 {
-	cout << "You are dead\n";
+	
 }
 
 int Player::getHealth()
@@ -18,7 +18,33 @@ int Player::getHealth()
 	return	health;
 }
 
+int Player::getWeapon()
+{
+	return weapon;
+}
+
 void Player::setHealth(int _health)
 {
 	health = _health;
+}
+
+void Player::setWeapon(int _weapon)
+{
+	weapon = _weapon;
+}
+
+void Player::setCoordinates(int dx, int dy)
+{
+	x += dx;
+	y += dy;
+}
+
+int Player::getX()
+{
+	return x;
+}
+
+int Player::getY()
+{
+	return y;
 }
