@@ -1,7 +1,7 @@
 #pragma once
 class Player
 {
-protected:
+private:
 	int health = 100;
 	int weapon = 0;
 	int x = 1;
@@ -16,5 +16,6 @@ public:
 	void setCoordinates(int dx, int dy);
 	int getX();
 	int getY();
+	void printStats();
 };
 

@@ -28,13 +28,13 @@ void Playground::Print(int playerX, int playerY)
 			else
 			{
 				if (i == 0)
-					cout << "*";
+					cout << "#";
 				else if (i == height - 1)
-					cout << "*";
+					cout << "#";
 				else if (j == 0)
-					cout << "*";
+					cout << "#";
 				else if (j == width - 1)
-					cout << "*";
+					cout << "#";
 				else
 					cout << " ";
 			}

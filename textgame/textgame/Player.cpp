@@ -48,3 +48,8 @@ int Player::getY()
 {
 	return y;
 }
+
+void Player::printStats()
+{
+	cout << "\nHealth: " << health << "\tWeapon: " << weapon;
+}
